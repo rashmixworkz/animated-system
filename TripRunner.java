@@ -2,7 +2,7 @@ class TripRunner{
 	
 	public static void main(String[] args)
 	{
-		System.out.println("Running main method")
+		System.out.println("Running main method");
 		double total=Trip.transport("bangloor","koppal");
 		System.out.println(total);
 		

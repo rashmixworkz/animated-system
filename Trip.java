@@ -13,6 +13,7 @@ class Trip{
 		return 0.0;
 	}
 	static double transport(String source, String destination, boolean ontime)
+	{
 		if(source=="mantralaya" && destination=="raichur" && ontime==true)
 		{
 			System.out.println("stating location="+source);
@@ -31,7 +32,9 @@ return false;
 		}
 	return true;
 	}
+	
 	static boolean transport(String destination, boolean ontime)
+	{
 		if(destination=="baglkot" && ontime==false)
 		{
 			
